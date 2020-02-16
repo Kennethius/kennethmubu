@@ -1,0 +1,343 @@
+body {
+  color: white;
+  background-color: #141516;
+}
+
+button {
+  background-color: #141516;
+}
+
+h1, h2 {
+  font-family: Times New Roman;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h6 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+strong {
+  color: white;
+}
+
+li img {
+  height: 8%;
+  width: 8%;
+}
+
+footer {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 70px 70px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+  padding:0 30px;
+}
+
+hr {
+  border-top: 1px  #838b91;
+  border-style: solid;
+  margin-top: 100px;
+  width: 85%;
+}
+
+
+/* Classes */
+
+.navbar {
+    background-color: #141516;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 50px 0 50px 0 ;
+}
+
+.container-fluid {
+  padding: 0 100px;
+}
+
+.intro {
+  padding-top: 50px;
+}
+
+.intro p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+}
+
+.intro h2 {
+  color: #838b91;
+}
+
+.findmeon {
+  padding-left: 0;
+}
+
+.findmeon p {
+  	letter-spacing: 2px;
+}
+
+.findmeon li {
+  display: inline;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  padding-right: 10px
+}
+
+.findmeon li a:hover {
+  text-decoration: none !important;
+}
+
+.projects-container {
+  margin-right: 0;
+width: 80%;
+}
+
+.heading-container {
+  text-align: right;
+  padding-top: 50px;
+}
+
+.project-list {
+  padding: 30px 0;
+}
+
+.project-heading {
+  color: #838b91;
+  display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+.year {
+  display: inline;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  text-align: right;
+}
+
+
+.card {
+    background-color: #141516;
+    border-top: 0.5px  #838b91;
+    border-style: solid;
+}
+
+
+.card-header {
+  padding-left: 0;
+}
+
+.btn {
+  text-decoration: none !important;
+  padding-left: 0;
+}
+
+.media-body ul{
+  padding-left: 0;
+}
+
+.media-body li{
+  display: inline;
+  padding-right: 10px;
+}
+
+.technologies {
+  font-size: 20px;
+}
+
+.sources li {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+}
+
+.sources li a {
+  text-decoration: none !important;
+}
+
+
+.contactme {
+  color: #838b91;
+  letter-spacing: 2px;
+  padding-top: 100px;
+}
+
+.contactme p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+}
+
+
+/* IDs */
+
+#projects {
+  padding-top: 50px;
+}
+
+#tindog {
+  border: 10px solid;
+  border-color: #838b91;
+  height: auto;
+  width: 100%;
+
+}
+
+#footer ul li a:hover {
+  text-decoration: none !important;
+}
+
+#date {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 360px) {
+
+hr {
+  margin-top: 10px;
+}
+
+  .container-fluid {
+    padding: 10px 30px 20px 30px;
+  }
+
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .projects-container {
+  width: 100%;
+  }
+
+  #projects {
+    padding-top: 0;
+  }
+
+
+  
+  .heading-container {
+    padding: 10px;
+  }
+
+  .project-list {
+    padding-bottom: 10px;
+  }
+
+  #project-list-heading {
+    margin-bottom: 0;
+  }
+
+  .card-header {
+    padding: 0;
+  }
+
+  .year {
+    padding-top: 15px;
+  }
+
+  .btn {
+    padding-top: 12px;
+  }
+
+  .project-heading {
+    display: inline;
+    font-size: 15px;
+    text-align: center;
+
+  }
+
+  h1, h2 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  H5 {
+    font-size: 15px;
+  }
+
+  li img {
+    height: 25%;
+    width: 25%;
+    padding: 0;
+  }
+
+  footer {
+    display: inline;
+    padding: 0;
+  }
+}
+
+
+/*
+@media (max-width: 360px) {
+
+  .container-fluid {
+    padding: 30px;
+  }
+
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .intro {
+    padding-bottom: 0;
+  }
+
+  #projects {
+    padding-top: 0px;
+  }
+
+  .project-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .heading-container {
+    padding-top: 0;
+  }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+.container-fluid {
+  padding: 10px;
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
