@@ -211,7 +211,7 @@ width: 80%;
 
 /* Mobile */
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
 
 hr {
   margin-top: 10px;
@@ -233,7 +233,6 @@ hr {
   #projects {
     padding-top: 0;
   }
-
 
   
   .heading-container {
@@ -282,9 +281,18 @@ hr {
     padding: 0;
   }
 
-  footer {
-    display: inline;
+  #footer {
+    padding: 10px;
+  }
+
+  footer ul {
     padding: 0;
+  }
+
+  footer ul li {
+    padding: 0;
+  }
+
   }
 }
 
