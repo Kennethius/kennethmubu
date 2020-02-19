@@ -148,6 +148,7 @@ width: 80%;
 .btn {
   text-decoration: none !important;
   padding-left: 0;
+  padding-right: 35%;
 }
 
 .media-body ul{
@@ -211,7 +212,7 @@ width: 80%;
 
 /* Mobile */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
 hr {
   margin-top: 10px;
@@ -247,6 +248,10 @@ hr {
     margin-bottom: 0;
   }
 
+  .btn {
+    padding-right: 30%;
+  }
+
   .card-header {
     padding: 0;
   }
@@ -257,6 +262,7 @@ hr {
 
   .btn {
     padding-top: 12px;
+    padding-right: 35%;
   }
 
   .project-heading {
@@ -276,8 +282,8 @@ hr {
   }
 
   li img {
-    height: 25%;
-    width: 25%;
+    height: 10%;
+    width: 10%;
     padding: 0;
   }
 
@@ -295,57 +301,3 @@ hr {
 
   }
 }
-
-
-/*
-@media (max-width: 360px) {
-
-  .container-fluid {
-    padding: 30px;
-  }
-
-  .navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .intro {
-    padding-bottom: 0;
-  }
-
-  #projects {
-    padding-top: 0px;
-  }
-
-  .project-list {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .heading-container {
-    padding-top: 0;
-  }
-
-}
-
-
-
-
-
-
-
-@media (min-width: 576px) {
-.container-fluid {
-  padding: 10px;
-  }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-*/
