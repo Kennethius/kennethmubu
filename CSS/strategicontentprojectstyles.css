@@ -11,7 +11,9 @@ h1 {
 }
 
 h6 {
+  color: #FFD071;
   font-family: 'Inconsolata', monospace;
+  letter-spacing: 2px;
 }
 
 p {
@@ -197,7 +199,7 @@ font-family: 'Bebas Neue', sans-serif;
 }
 
 .text-box2 {
-  background-color: #ff4c68;
+  background-color: #FFD071;
   padding: 60px;
 }
 
@@ -223,12 +225,12 @@ font-family: 'Bebas Neue', sans-serif;
 }
 
 .explanation {
-  background-color: #ff4c68;
+  background-color: #002266;
   padding: 60px;
 }
 
 .explanation h5 {
-  color: black;
+  color: #FFD071;
 font-family: Times New Roman;
   font-size: 15px;
 }
@@ -243,6 +245,7 @@ font-family: Times New Roman;
 .icons-container {
   background-color: white;
   padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
 }
 
@@ -265,18 +268,26 @@ font-family: Times New Roman;
   padding: 50px 0 0 0;
 }
 
-.features {
-  padding-top: 10%;
-  padding-bottom: 10%;
+.boosting-trust {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
-.circle {
-  color: black;
+.bloginho {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.brand-aware {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .heart {
   color: black;
-
 }
 
 .contact-me {
