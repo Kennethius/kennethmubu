@@ -1,5 +1,5 @@
 body {
-  color: white;
+  color: #fffaf0;
   background-color: #141516;
 }
 
@@ -26,7 +26,7 @@ h5 {
 }
 
 strong {
-  color: white;
+  color: #fffaf0;
 }
 
 li img {
@@ -48,7 +48,7 @@ footer ul li {
 }
 
 hr {
-  border-top: 1px  #838b91;
+  border-top: 1px  #fffaf0;
   border-style: solid;
   margin-top: 100px;
   width: 85%;
@@ -103,7 +103,80 @@ hr {
 
 .projects-container {
   margin-right: 0;
-width: 80%;
+}
+
+.container {
+  padding: 0;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fffaf0;
+}
+
+.text {
+  border-style: solid;
+  padding: 2%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-deck {
+  margin-left: 0 !important;
+}
+
+.card-line {
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+
+.link-container {
+  background-color: #fffaf0;
+}
+
+.card-link {
+  color: #fffaf0;
+}
+
+ol {
+  padding-left: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#link p {
+  display: inline;
+  padding: 0 5%;
+
+}
+
+#link p a:hover {
+  color: white;
+  text-decoration: none !important;
 }
 
 .heading-container {
@@ -136,13 +209,25 @@ width: 80%;
 
 .card {
     background-color: #141516;
-    border-top: 0.5px  #838b91;
+    border: 0.5px  #838b91;
     border-style: solid;
 }
 
+.card-body {
+  padding: 5% 10%;
+}
+
+.card-title {
+font-family: 'Source Sans Pro', sans-serif;
+}
 
 .card-header {
   padding-left: 0;
+}
+
+.card-rule {
+  margin-top: 10%;
+  width: 100%;
 }
 
 .btn {
@@ -183,6 +268,19 @@ width: 80%;
 .contactme p {
   font-family: 'Inconsolata', monospace;
   font-size: 14px;
+}
+
+.contactme a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.collab {
+  color: #fffaf0;
+}
+
+.contact-text {
+   color: #fffaf0;
 }
 
 
