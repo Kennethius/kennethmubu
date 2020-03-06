@@ -39,6 +39,10 @@ footer ul li {
   padding: 0 30px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .jumbotron {
   background-color: #141516;
   background-image: url("../img/SChomepage-jumbotron.PNG");
