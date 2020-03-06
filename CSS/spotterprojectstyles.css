@@ -1,288 +1,362 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+body {
+  background-color: #141516;
+}
 
-<head>
-  <meta charset="utf-8">
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: normal;
+}
 
-  <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+h6 {
+  color: #41D5FF;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 2px;
+}
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="CSS/spotterprojectstyles.css">
+p {
+  color: #838b91;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
 
+footer {
+  color: #fff8f3;
+  background-color: #141516;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 70px 70px;
+  text-align: center;
+}
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900,900i|Ubuntu&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+footer ul li {
+  display: inline;
+  padding: 0 30px;
+}
 
-  <title>StrategiContent Project</title>
-</head>
+a:hover {
+  text-decoration: none;
+}
 
-<body>
+.jumbotron {
+  background-color: #141516;
+  background-image: url("../img/SpotterCaptureBlur.PNG");
+  background-size: 100% 100%;
+  margin: 0;
+  min-height: 600px;
+}
 
-  <section id="top-container">
-    <div class="jumbotron jumbotron-fluid ">
-      <div class="container description rellax">
-        <div class="row">
-          <div class="col-lg-9">
-            <h6>- PROJECT</h6>
-            <h1 class="display-4">Spotter</h1>
-            <p>
-              The Spotter app is a navigation app coupled with a mood reader in the form of a ring. The goal was to an app that is capable of providing you with constant
-              on-the-go updates on events taking place around your city based on your mood. The website was re-designed to make it intuitive and user friendly.
-               See <a href="https://www.tumblr.com/blog/kennethmubusblog" class="blog-link">blog</a> for detailed information. The app, Spotter, is a concept app that was initially created
-               to make planning for social life and individual activites much easier.
-            </p>
-          </div>
-          <div class="col-lg-3">
-            <div class="row">
-              <div class="col">
-                <p class="year">Y -2019</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col project-details">
-                <p class="project">
-                  Project:
-                </p>
-                <p>Spotter website</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col project-details">
-                <p class="tech">
-                  Technologies:
-                </p>
-                <p>HTML, CSS, BOOTSTRAP, JAVASCRIPT </p>
-              </div>
-            </div>
-            <a class="text-white directories" href="https://kennethius.github.io/StrategiContent/" role="button"><li>Live</li></a>
-            <a class="text-white directories" href="https://github.com/Kennethius/StrategiContent-website" role="button"><li>Github</li></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+.description {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  background-color: #141516;
+  color: #fff8f3;
+  padding: 50px;
+}
 
+.blog-link {
+  color: #fff8f3;
+}
 
-  <div class="container-fluid brand-container">
-    <img src="img/logo.jpg" class="spotterlogo" alt="spotterlogo-img" />
-  </div>
-  <div class="container-fluid screenshots">
-    <div class="row">
-      <div class="col-sm imac">
-        <img src="img/surfacebook.png" class="text-center" alt="screenshot-img" />
-      </div>
-      <div class="col-sm iphonex">
-        <img src="img/iphonexscreencap.png" class="text-center" alt="screenshot-img">
-      </div>
-    </div>
-  </div>
+.blog-link:hover {
+  color: #41D5FF;
+  text-decoration: none;
+}
 
-  <div class="container-fluid colour-choice">
-    <h6>- COLOURS</h6>
-    <h1>Colour Choice</h1>
-    <img src="img/Spottercolourpalette.png" class="colour-palette" alt="colour-palette-img">
-  </div>
+.year {
+  color: #fff8f3;
+  font-family: 'Inconsolata', monospace;
+}
 
-  <div class="typo">
-    <h6>- TYPOGRAPHY</h6>
-    <h1 class="text-muted">Fonts Choice</h1>
-  </div>
+.directories {
+  display: inline-block;
+  color: #fff8f3;
+  list-style: none;
+  text-decoration: none !important;
+}
 
-  <div class="container-fluid typography">
-    <div class="row">
-      <div class="col-sm">
-        <div class="row">
-          <p>FONT</p>
-        </div>
-        <div class="row">
-          <p>Title</p>
-        </div>
-      </div>
-      <div class="col-sm font-text">
-        <div class="row">
-          <p class="text-white">Rubik</p>
-        </div>
-        <div class="row">
-          <p class="text-white first-row-text">Magna etiam tempor orci eu lobortis elementum nibh tellus</p>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="row">
-          <p>SIZE</p>
-        </div>
-        <div class="row">
-          <p class="text-muted first-row-text">56px</p>
-        </div>
-      </div>
-    </div>
+.project {
+  color: white;
+}
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="row">
-          <p>SUBTITLE</p>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="row">
-          <p class="second-row-text">Aliquet bibendum enim facilisis gravida.</p>
-        </div>
+.tech {
+  color: white;
+}
 
-      </div>
-      <div class="col-sm">
-        <div class="row">
-          <p class="second-row-text">48px</p>
-        </div>
-      </div>
-    </div>
+.brand-container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="row">
-          <p>Paragraph</p>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="row">
-          <p class="third-row-text">Lorem ipsum dolor sit amet consectetur. Id porta nibh venenatis cras sed. Ornare arcu odio ut sem nulla pharetra diam sit.</p>
-        </div>
+.brand-container, .screenshots {
+  background-color: white;
+}
 
-      </div>
-      <div class="col-sm">
-        <div class="row">
-          <p class="third-row-text">62px</p>
-        </div>
-      </div>
-    </div>
-  </div>
+.spotterlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  <div class="container-fluid text-example">
-    <div class="row">
-      <div class="col-sm text-box1">
-        <p class="text-dark">Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Leo duis ut diam quam nulla porttitor. </p>
-      </div>
-      <div class="col-sm text-box2">
-        <div class="row">
-          <p class="text-white">Lorem ipsum dolor sit amet consectetur. Id porta nibh venenatis cras sed.</p>
-        </div>
-        <div class="row">
-          <p class="text-dark">Laculis nunc sed augue lacus viverra vitae congue eu consequat.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+#brand {
+  margin-bottom: 0;
+}
 
-  <div class="container-fluid homepage">
-    <h6>- WEB PAGES</h6>
-    <h1 class="text-muted">Home Page</h1>
-    <p>The home page has two basic purposes. The first is to show the plans to quick and efficiently; the second is to introduce users to Spotter</p>
-    <img src="img/spotter-full-page-capture.png" class="spotter-full-page-capture" alt="spotter-website-capture">
-  </div>
+.brand-container h1 {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
-  <div class="container-fluid explanation">
-    <h6>- DETAILS</h6>
-    <p>A huge work was placed on creating a clean and uniform website using primarily technologies such as CSS, Javascript and HTML. Userbility
-    and ease at navigation was a huge factor in creating the website for users. This website took advantage big and bold letters to give users a sense of assuredness
-     when using the Spotter app </p>
-  </div>
+.screenshots {
+  text-align: center;
+  padding-bottom: 150px;
+}
 
+.screenshots img {
+  display: inline;
+  width: 80%;
+}
 
-  <div class="container-fluid icons-container">
-    <h6>- ICONOGRAPHY</h6>
-    <h1 class="text-dark">Sample of icons featured on the Spotter site</h1>
+.imac {
+  text-align: right;
+}
 
-    <div class="container-fluid repeat-icon">
-      <div class="row featuring">
-        <div class="col-lg-4 features">
-              <img src="img/blog.png" class="bloginho" alt="blog-img" />
-        </div>
+.iphonex {
+  text-align: left;
+}
 
-        <div class="col-lg-4 features bullseye">
-          <img src="img/boosttrust.png" class="boosting-trust" alt="blog-img" />
+.colour-choice {
+  background-color: #141516;
+  color: #fff8f3;
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
 
-        </div>
+.colour-choice h1 {
+  font-family:  Times New Roman;
+  color: #838b91;
+}
 
-        <div class="col-lg-4 features heart">
-          <img src="img/brandawareness.png" class="brand-aware" alt="blog-img" />
+.colour-choice p {
+  color: #fff8f3;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 2px;
+}
 
-        </div>
-      </div>
-    </div>
-  </div>
+.colour-palette {
+  height: 50%;
+  width: 50%;
+  padding-top: 3%;
+}
 
-  <div class="container-fluid contact-me">
-<div class="row">
-<div class="col-sm">
-  <div class="row">
-    <p class="text-white">
-    - SAY HELLO
-    </p>
-  </div>
-  <div class="row">
-    <p>
-      Do you like my work? <a href="mailto:kennethmubu@protonmail.com" class="text-white">Contact me</a>
-    </p>
-  </div>
-  </div>
-  <div class="col-sm">
-    <div class="row">
-      <p class="text-white">
-        - NEXT PROJECT
-      </p>
-    </div>
-    <div class="row">
-      <p>
-      <p class="next-project"><a href="strategicontentproject.html" class="text-white">StrategiContent</a><span class="right-arrow">&#8594;</span></p>
-      </p>
-    </div>
-  </div>
+.typography {
+  background-color: #141516;
+  color: #fff8f3;
+  padding: 30px 200px 100px;
+}
 
-</div>
-</div>
+.typo {
+  background-color: #141516;
+  text-align: center;
+}
 
-  </div>
+.typo p {
+  color: #fff8f3;
+  font-family: 'Inconsolata', monospace;
+}
 
+.typo h1 {
+font-family: Times New Roman;
+  font-weight: 900;
+}
 
+.woogie {
+  text-align: left;
+}
 
+.row {
+  justify-content: center;
+}
 
+.font-text {
+font-family: 'Bebas Neue', sans-serif;
+}
 
-  <footer id="footer">
+.first-row-text {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: normal;
+}
 
+.second-row-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+}
 
+.third-row-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
 
-    <p><span class="arrow">&#8592;</span> <a href="index.html" class="text-white">BACK TO HOME</a></p>
+.text-example {
+  $grid-gutter-width: 50px !default;
+}
 
+.text-box1 {
+  background: #fff8f3;
+  color: black;
+  padding: 60px;
+}
 
+.text-box1 p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+}
 
-    <ul>
-      <li><a href="mailto:kennefmubu@gmail.com" class="text-muted"> EMAIL</a></li>
-      <li><a href="https://github.com/Kennethius" class="text-muted"> GITHUB</a></li>
-      <li><a href="https://www.linkedin.com/in/kenneth-mubu/" class="text-muted"> LINKEDIN </a></li>
-      <li><a href="https://kennethmubusblog.tumblr.com/" class="text-muted">BLOG</a></li>
-    </ul>
-    <p id="date" class="text-white">
-      Copyright &copy;
-      <script>
-        var CurrentYear = new Date().getFullYear()
-        document.write(CurrentYear)
-      </script>
-    </p>
-  </footer>
+.text-box2 {
+  background-color: #FFD071;
+  padding: 60px;
+}
 
+.text-box2 p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+}
 
+.homepage {
+  background-color: #141516;
+  color: #fff8f3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.spotter-full-page-capture {
+  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.explanation {
+  background-color: #333665;
+  padding: 60px;
+}
+
+.explanation h5 {
+  color: #41D5FF;
+font-family: Times New Roman;
+  font-size: 15px;
+}
+
+.explanation p {
+  color: #fff8f3;
+  font-family: 'Rubik', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.icons-container {
+  background-color: #fff8f3;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
 
 
+.icons-container h1 {
+  color: black;
+}
 
-  <script src="js/rellax.min.js"></script>
-  <script>
-    var rellax = new Rellax('.rellax');
-  </script>
-  <script defer src="js/all.js"></script>
-</body>
 
-</html>
+.first-icon-row {
+  padding-top: 5%;
+}
+
+.second-icon-row {
+  padding-top: 15%;
+}
+
+.repeat-icon {
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.boosting-trust {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.bloginho {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.brand-aware {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.heart {
+  color: black;
+}
+
+.contact-me {
+  background-color: #202122;
+  color: #fff8f3;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.home {
+  padding-bottom: 1%;
+}
+
+.back-to-home {
+  display: inline;
+}
+
+.arrow {
+  font-size: 120%;
+  padding-left: 0.1%;
+}
+
+.right-arrow {
+  font-size: 120%;
+  padding-right: 0.1%;
+}
+
+.next-project {
+  padding-left: 0.1%;
+}
+
+
+
+#footer ul li a:hover {
+  text-decoration: none !important;
+}
+
+#date {
+  font-size: 12px;
+  padding-top: 20px;
+}
