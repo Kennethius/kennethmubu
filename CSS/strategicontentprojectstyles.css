@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  font-family: 'Playfair Display', Times New Roman;
+  font-family: 'times new roman Neue', Times New Roman;
   font-style: normal;
   font-size: 35px;
   font-weight: 900;
@@ -11,7 +11,9 @@ h1 {
 }
 
 h6 {
+  color: #FFD071;
   font-family: 'Inconsolata', monospace;
+  letter-spacing: 2px;
 }
 
 p {
@@ -38,20 +40,19 @@ footer ul li {
 }
 
 a:hover {
-  color: white;
   text-decoration: none;
 }
 
 .jumbotron {
   background-color: #141516;
-  background-image: url("../img/tindogjumbotron.PNG");
+  background-image: url("../img/SChomepage-jumbotron.PNG");
   background-size: 100% 100%;
   margin: 0;
   min-height: 600px;
 }
 
 .description {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 14px;
   letter-spacing: 2px;
   background-color: #141516;
@@ -79,7 +80,7 @@ a:hover {
 }
 
 .directories:hover {
-  color: white;
+  color: #ffd071;
   text-decoration: none;
 }
 
@@ -126,7 +127,7 @@ a:hover {
 }
 
 .colour-choice h1 {
-  font-family: 'Playfair Display', Times New Roman;
+  font-family:  Times New Roman;
   color: #838b91;
 }
 
@@ -159,7 +160,7 @@ a:hover {
 }
 
 .typo h1 {
-  font-family: Times New Roman;
+font-family: Times New Roman;
   font-weight: 900;
 }
 
@@ -172,25 +173,25 @@ a:hover {
 }
 
 .font-text {
-  font-family: 'Montserrat', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
 }
 
 .first-row-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 900;
   font-size: 56px;
   line-height: normal;
 }
 
 .second-row-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 48px;
   font-weight: 900;
   line-height: normal;
 }
 
 .third-row-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
@@ -207,18 +208,18 @@ a:hover {
 }
 
 .text-box1 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 45px;
   font-weight: 900;
 }
 
 .text-box2 {
-  background-color: #ff4c68;
+  background-color: #FFD071;
   padding: 60px;
 }
 
 .text-box2 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 45px;
   font-weight: 400;
 }
@@ -231,25 +232,27 @@ a:hover {
   text-align: center;
 }
 
-.tindog-full-page-capture {
+.strategiContent-full-page-capture {
   padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
 .explanation {
-  background-color: #ff4c68;
+  background-color: #002266;
   padding: 60px;
 }
 
 .explanation h5 {
-  color: black;
-  font-family: 'Montserrat', sans-serif;
+  color: #FFD071;
+font-family: 'Bebas Neue', sans-serif;
   font-size: 15px;
 }
 
 .explanation p {
   color: white;
-  font-family: 'Playfair Display', Times New Roman;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 35px;
   font-weight: 900;
 }
@@ -257,6 +260,7 @@ a:hover {
 .icons-container {
   background-color: white;
   padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
 }
 
@@ -265,9 +269,6 @@ a:hover {
   color: black;
 }
 
-.icons-container h6 {
-
-}
 
 .first-icon-row {
   padding-top: 5%;
@@ -282,18 +283,26 @@ a:hover {
   padding: 50px 0 0 0;
 }
 
-.features {
-  padding-top: 10%;
-  padding-bottom: 10%;
+.boosting-trust {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
-.circle {
-  color: black;
+.bloginho {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.brand-aware {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .heart {
   color: black;
-
 }
 
 .contact-me {
