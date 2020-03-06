@@ -69,6 +69,17 @@ footer ul li {
   color: white;
 }
 
+.directories {
+  display: inline-block;
+  color: white;
+  list-style: none;
+}
+
+.directories:hover {
+  color: #ffd071;
+  text-decoration: none;
+}
+
 .brand-container, .screenshots {
   background-color: white;
 }
@@ -231,13 +242,13 @@ font-family: 'Bebas Neue', sans-serif;
 
 .explanation h5 {
   color: #FFD071;
-font-family: Times New Roman;
+font-family: 'Bebas Neue', sans-serif;
   font-size: 15px;
 }
 
 .explanation p {
   color: white;
-  font-family: 'Playfair Display', Times New Roman;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 35px;
   font-weight: 900;
 }
