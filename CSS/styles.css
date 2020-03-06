@@ -354,6 +354,10 @@ hr {
     padding: 0;
   }
 
+  .card {
+    margin-bottom: 10%;
+  }
+
   .year {
     padding-top: 15px;
   }
