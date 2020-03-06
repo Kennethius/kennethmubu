@@ -67,6 +67,17 @@ footer ul li {
   color: white;
 }
 
+.directories {
+  display: inline-block;
+  color: white;
+  list-style: none;
+}
+
+.directories:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .brand-container, .screenshots {
   background-color: white;
 }
