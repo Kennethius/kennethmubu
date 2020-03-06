@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  font-family: 'times new roman Neue', Times New Roman;
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-size: 35px;
   font-weight: 900;
@@ -25,7 +25,7 @@ p {
 }
 
 footer {
-  color: white;
+  color: #fff8f3;
   background-color: #141516;
   font-family: 'Inconsolata', monospace;
   font-size: 14px;
@@ -37,6 +37,10 @@ footer {
 footer ul li {
   display: inline;
   padding: 0 30px;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .jumbotron {
@@ -52,13 +56,29 @@ footer ul li {
   font-size: 14px;
   letter-spacing: 2px;
   background-color: #141516;
-  color: white;
+  color: #fff8f3;
   padding: 50px;
 }
 
+.blog-link {
+  color: #fff8f3;
+}
+
+.blog-link:hover {
+  color: #41D5FF;
+  text-decoration: none;
+}
+
 .year {
-  color: white;
+  color: #fff8f3;
   font-family: 'Inconsolata', monospace;
+}
+
+.directories {
+  display: inline-block;
+  color: #fff8f3;
+  list-style: none;
+  text-decoration: none !important;
 }
 
 .project {
@@ -117,7 +137,7 @@ footer ul li {
 
 .colour-choice {
   background-color: #141516;
-  color: white;
+  color: #fff8f3;
   text-align: center;
   padding: 100px 0 100px 0;
 }
@@ -128,7 +148,7 @@ footer ul li {
 }
 
 .colour-choice p {
-  color: white;
+  color: #fff8f3;
   font-family: 'Inconsolata', monospace;
   letter-spacing: 2px;
 }
@@ -141,7 +161,7 @@ footer ul li {
 
 .typography {
   background-color: #141516;
-  color: white;
+  color: #fff8f3;
   padding: 30px 200px 100px;
 }
 
@@ -151,7 +171,7 @@ footer ul li {
 }
 
 .typo p {
-  color: white;
+  color: #fff8f3;
   font-family: 'Inconsolata', monospace;
 }
 
@@ -198,7 +218,7 @@ font-family: 'Bebas Neue', sans-serif;
 }
 
 .text-box1 {
-  background: white;
+  background: #fff8f3;
   color: black;
   padding: 60px;
 }
@@ -222,7 +242,7 @@ font-family: 'Bebas Neue', sans-serif;
 
 .homepage {
   background-color: #141516;
-  color: white;
+  color: #fff8f3;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
@@ -236,7 +256,7 @@ font-family: 'Bebas Neue', sans-serif;
 }
 
 .explanation {
-  background-color: #002266;
+  background-color: #333665;
   padding: 60px;
 }
 
@@ -247,14 +267,14 @@ font-family: Times New Roman;
 }
 
 .explanation p {
-  color: white;
+  color: #fff8f3;
   font-family: 'Rubik', sans-serif;
   font-size: 35px;
   font-weight: 900;
 }
 
 .icons-container {
-  background-color: white;
+  background-color: #fff8f3;
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
@@ -303,7 +323,7 @@ font-family: Times New Roman;
 
 .contact-me {
   background-color: #202122;
-  color: white;
+  color: #fff8f3;
   padding-top: 3%;
   padding-bottom: 3%;
 }
