@@ -1,0 +1,165 @@
+body {
+  background-color: #364c70;
+}
+
+h1 {
+  color: white;
+  font-family: "Poppins";
+  padding-top: 5%;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Poppins";
+}
+
+label {
+  font-family: "Poppins";
+}
+
+button {
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+}
+
+.button {
+  text-align: center;
+}
+
+main {
+    text-align: left;
+}
+
+.container {
+  box-shadow: 0px 0px 12px 0px #cccccc;
+	background-color:#ffffff;
+	border-radius: 25px;
+	border:1px solid #ffffff;
+  margin: 2% 25% 0 25%;
+  padding: 2% 5%;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+.log-in {
+  grid-column: 1/2;
+}
+
+.sign-up {
+  grid-column: 2/3;
+}
+
+.border {
+  border-bottom-color: orange;
+  border-bottom-style: solid;
+}
+
+#login, #signup {
+    display: none;
+}
+
+#login.show, #signup.show {
+    display: block;
+}
+
+.error {
+    width  : 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+  }
+
+  .error.active {
+    padding: 0.3em;
+  }
+
+  input[type="text"], input[type="password"] {
+      padding: 10px;
+      display: block;
+      font-size: 14px;
+      margin: 5px 0;
+      width: 100%;
+      box-sizing: border-box;
+      background: #fff;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+      transition: all 0.3s;
+      color: #333;
+  }
+
+  input[type="text"]:valid, input[type="password"]:valid {
+    border-color: green;
+}
+
+  input[type="text"].error, input[type="password"].error {
+      border-color: red;
+  }
+
+  .input-select {
+    display: flex;
+    align-items: center;
+  }
+
+  .input-select input {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    outline: none;
+  }
+
+  .input-select label {
+    margin-left: 5px;
+  }
+
+  .input-select input:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border: 2px solid #aaa;
+    border-radius: 3px;
+    display: block;
+  }
+
+  .input-select input:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  } 
+  .input-select input:checked:after {
+    background: orange;
+  }
+
+  .login-form > div {
+      margin-top: 40px;
+  }
+
+  .signup > div {
+    margin-top: 40px;
+  }
+
+  .msg-error {
+      color: red;
+      display: none;
+  }
+
+  .msg-error.show {
+      display: block;
+  }
+  
