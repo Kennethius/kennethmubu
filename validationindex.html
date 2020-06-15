@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/validationstyles.css">
+    
+     <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Validation Constraint API: Log-in/Sign-in Form</h1>
+    <div class='container'>
+        <nav class="navigation">
+            <div class="log-in border">
+                <h2>Log-in</h2>
+            </div>
+            <div class="sign-up">
+                <h2>Sign-up</h2>
+            </div>
+        </nav>
+        <main>
+            <div id="login" class="login show">
+                <form class="login-form signup-form" novalidate>
+                    <div class="username">
+                        <label for="">Username:</label>
+                        <input type="text" id="login-username" required >
+                        <div class='msg-error'>Please enter your username.</div>
+                    </div>
+                    <div class="password">
+                        <label for="">Password:</label>
+                        <input type="password" id="login-password" required >
+                        <div class='msg-error'>Please enter your password.</div>
+                    </div>
+                    <div>
+                        <div class="input-select">
+                            <input id="remember-me" type="checkbox">
+                            <label for="">Remember Me</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="button">
+                        <button>Log-in</button>
+                    </div>
+                </div>
+
+                <div id="signup" class="signup">
+                    <div class="username">
+                        <label for="">Username:</label>
+                        <input type="text" id="signup-username" required >
+                        <div class='msg-error'>Please enter your username.</div>
+                    </div>
+                    <div class="password">
+                        <label for="">Password:</label>
+                        <input type="password" id="signup-password1" name='password1' required >
+                        <div class='msg-error'>Please enter your password.</div>
+                    </div>
+                    <div class="reenter-password">
+                        <label for="">Confirm Password:</label>
+                        <input type="password" id="signup-password2" name='password2' required >
+                        <div class='msg-error' id="match">Please enter your password.</div>
+                    </div>
+                    <br>
+                    <div>
+                        <button class="button">Sign-up</button>
+                    </div>
+                </div>
+                </form>
+        </main>
+    </div>
+
+
+
+   <script src="js/formapp.js"></script>
+</body>
+</html>
